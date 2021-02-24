@@ -34,8 +34,9 @@ namespace Practica_Github_ED_1_DAW_FRLC_2021
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.aluNombre = new System.Windows.Forms.TextBox();
-            this.aluNota = new System.Windows.Forms.TextBox();
             this.listaAlumnos = new System.Windows.Forms.TextBox();
+            this.aluNota = new System.Windows.Forms.NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -82,13 +83,6 @@ namespace Practica_Github_ED_1_DAW_FRLC_2021
             this.aluNombre.Size = new System.Drawing.Size(144, 20);
             this.aluNombre.TabIndex = 4;
             // 
-            // aluNota
-            // 
-            this.aluNota.Location = new System.Drawing.Point(209, 41);
-            this.aluNota.Name = "aluNota";
-            this.aluNota.Size = new System.Drawing.Size(58, 20);
-            this.aluNota.TabIndex = 5;
-            // 
             // listaAlumnos
             // 
             this.listaAlumnos.Location = new System.Drawing.Point(33, 99);
@@ -98,13 +92,20 @@ namespace Practica_Github_ED_1_DAW_FRLC_2021
             this.listaAlumnos.Size = new System.Drawing.Size(369, 179);
             this.listaAlumnos.TabIndex = 6;
             // 
+            // aluNota
+            // 
+            this.aluNota.Location = new System.Drawing.Point(209, 42);
+            this.aluNota.Name = "aluNota";
+            this.aluNota.Size = new System.Drawing.Size(56, 20);
+            this.aluNota.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(424, 306);
-            this.Controls.Add(this.listaAlumnos);
             this.Controls.Add(this.aluNota);
+            this.Controls.Add(this.listaAlumnos);
             this.Controls.Add(this.aluNombre);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
@@ -112,6 +113,7 @@ namespace Practica_Github_ED_1_DAW_FRLC_2021
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Alumnos";
+            ((System.ComponentModel.ISupportInitialize)(this.aluNota)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -124,8 +126,8 @@ namespace Practica_Github_ED_1_DAW_FRLC_2021
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox aluNombre;
-        private System.Windows.Forms.TextBox aluNota;
         private System.Windows.Forms.TextBox listaAlumnos;
+        private System.Windows.Forms.NumericUpDown aluNota;
     }
 }
 
