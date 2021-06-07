@@ -9,8 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Collections;
 
+
 namespace Practica_Github_ED_1_DAW_FRLC_2021
 {
+    // Comentarios añadidos
     public partial class Form1 : Form
     {
 
